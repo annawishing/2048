@@ -1,0 +1,119 @@
+
+body{
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	background-color: #fbf8ef;
+}
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+}
+
+.container{
+	width: 500px;
+	margin: auto;
+	margin-top: 80px;
+}
+
+.game-name{
+	float: left;
+	padding-top: 15px;
+	color: #776e65;
+	font-size: 60px;
+	font-weight: bold;
+
+}
+
+.score{
+	float: right;
+	height: 50px;
+	background-color: #bbada0;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.cur-score{
+	margin-right: 5px;
+}
+
+.score .content{
+	color: #f0e3da;
+	padding-top: 8px;
+	font-size: 10px;
+	font-weight: bold;
+
+}
+
+.score .best-score, .score .current-score{
+	color: #fff;
+	padding: 0 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.note{
+	margin: 25px 0;
+}
+
+.note .content{
+	float: left;
+	color: #999288;
+	padding-top: 10px;
+}
+
+.note span{
+	color: #7a7067;
+	font-weight: bold;
+}
+
+.replay{
+	float: right;
+	text-align: center;
+	padding: 8px 20px 3px;
+	height: 25px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #907a65;
+	border-radius: 3px;
+	
+}
+
+.border{
+	width: 480px;
+	height: 480px;
+	background-color: #bbada0;
+	border-radius: 8px;
+	box-sizing:content-box;
+	border: 10px solid #bbada0;
+}
+
+.box{
+	float: left;
+	width: 106px;
+	height: 106px;
+	background-color: #cdc1b3;
+	border-radius: 5px;
+	border:7px solid #bbada0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
